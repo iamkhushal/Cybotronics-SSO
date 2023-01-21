@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580BAEAF297BFD4500DEBC3E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */; };
+		580BAEB9297C0DF700DEBC3E /* ScanQRButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */; };
 		5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A3297BE87C004BF368 /* AppDelegate.swift */; };
 		5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A5297BE87C004BF368 /* SceneDelegate.swift */; };
-		5859E0A8297BE87C004BF368 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A7297BE87C004BF368 /* ViewController.swift */; };
-		5859E0AB297BE87C004BF368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5859E0A9297BE87C004BF368 /* Main.storyboard */; };
 		5859E0AE297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0AC297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld */; };
 		5859E0B0297BE87D004BF368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5859E0AF297BE87D004BF368 /* Assets.xcassets */; };
-		5859E0B3297BE87D004BF368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5859E0B1297BE87D004BF368 /* LaunchScreen.storyboard */; };
+		5859E0BE297BEEEB004BF368 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0BD297BEEEB004BF368 /* HomeViewController.swift */; };
+		5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */; };
+		5859E0C4297BF154004BF368 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */; };
+		5859E0C6297BF28F004BF368 /* ScreenOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRButtonView.swift; sourceTree = "<group>"; };
 		5859E0A0297BE87C004BF368 /* Cybotronics-SSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cybotronics-SSO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5859E0A3297BE87C004BF368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5859E0A5297BE87C004BF368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5859E0A7297BE87C004BF368 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5859E0AA297BE87C004BF368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5859E0AD297BE87C004BF368 /* Cybotronics_SSO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cybotronics_SSO.xcdatamodel; sourceTree = "<group>"; };
 		5859E0AF297BE87D004BF368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5859E0B2297BE87D004BF368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5859E0B4297BE87D004BF368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5859E0BD297BEEEB004BF368 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenOrientation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,10 @@
 		5859E0A2297BE87C004BF368 /* Cybotronics-SSO */ = {
 			isa = PBXGroup;
 			children = (
+				5859E0C0297BF0AD004BF368 /* Extensions */,
+				5859E0BC297BEED8004BF368 /* HomeViewController */,
 				5859E0BA297BE88A004BF368 /* BaseClasses */,
-				5859E0A7297BE87C004BF368 /* ViewController.swift */,
-				5859E0A9297BE87C004BF368 /* Main.storyboard */,
 				5859E0AF297BE87D004BF368 /* Assets.xcassets */,
-				5859E0B1297BE87D004BF368 /* LaunchScreen.storyboard */,
 				5859E0B4297BE87D004BF368 /* Info.plist */,
 				5859E0AC297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld */,
 			);
@@ -76,6 +81,34 @@
 				5859E0A3297BE87C004BF368 /* AppDelegate.swift */,
 			);
 			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		5859E0BC297BEED8004BF368 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5859E0BF297BEEED004BF368 /* ViewController */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		5859E0BF297BEEED004BF368 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5859E0BD297BEEEB004BF368 /* HomeViewController.swift */,
+				580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5859E0C0297BF0AD004BF368 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */,
+				5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */,
+				5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */,
+				5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5859E0B3297BE87D004BF368 /* LaunchScreen.storyboard in Resources */,
 				5859E0B0297BE87D004BF368 /* Assets.xcassets in Resources */,
-				5859E0AB297BE87C004BF368 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,33 +180,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5859E0A8297BE87C004BF368 /* ViewController.swift in Sources */,
 				5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */,
 				5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */,
+				5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */,
+				580BAEB9297C0DF700DEBC3E /* ScanQRButtonView.swift in Sources */,
 				5859E0AE297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld in Sources */,
+				5859E0BE297BEEEB004BF368 /* HomeViewController.swift in Sources */,
+				5859E0C4297BF154004BF368 /* UIScreen+Extension.swift in Sources */,
+				5859E0C6297BF28F004BF368 /* ScreenOrientation.swift in Sources */,
+				580BAEAF297BFD4500DEBC3E /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5859E0A9297BE87C004BF368 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5859E0AA297BE87C004BF368 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5859E0B1297BE87D004BF368 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5859E0B2297BE87D004BF368 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5859E0B5297BE87D004BF368 /* Debug */ = {
@@ -304,8 +321,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cybotronics-SSO/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = " ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,8 +351,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cybotronics-SSO/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = " ";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
