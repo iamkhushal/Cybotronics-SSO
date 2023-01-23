@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		580BAEAF297BFD4500DEBC3E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */; };
 		580BAEB9297C0DF700DEBC3E /* ScanQRButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */; };
+		580BAEBC297C4CD800DEBC3E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 580BAEBB297C4CD800DEBC3E /* FirebaseMessaging */; };
+		580BAEBE297C4D1F00DEBC3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 580BAEBD297C4D1F00DEBC3E /* GoogleService-Info.plist */; };
 		5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A3297BE87C004BF368 /* AppDelegate.swift */; };
 		5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A5297BE87C004BF368 /* SceneDelegate.swift */; };
 		5859E0AE297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0AC297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld */; };
@@ -22,6 +24,7 @@
 /* Begin PBXFileReference section */
 		580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRButtonView.swift; sourceTree = "<group>"; };
+		580BAEBD297C4D1F00DEBC3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5859E0A0297BE87C004BF368 /* Cybotronics-SSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cybotronics-SSO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5859E0A3297BE87C004BF368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5859E0A5297BE87C004BF368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				580BAEBC297C4CD800DEBC3E /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +83,7 @@
 			children = (
 				5859E0A5297BE87C004BF368 /* SceneDelegate.swift */,
 				5859E0A3297BE87C004BF368 /* AppDelegate.swift */,
+				580BAEBD297C4D1F00DEBC3E /* GoogleService-Info.plist */,
 			);
 			path = BaseClasses;
 			sourceTree = "<group>";
@@ -127,6 +132,9 @@
 			dependencies = (
 			);
 			name = "Cybotronics-SSO";
+			packageProductDependencies = (
+				580BAEBB297C4CD800DEBC3E /* FirebaseMessaging */,
+			);
 			productName = "Cybotronics-SSO";
 			productReference = 5859E0A0297BE87C004BF368 /* Cybotronics-SSO.app */;
 			productType = "com.apple.product-type.application";
@@ -155,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 5859E097297BE87C004BF368;
+			packageReferences = (
+				580BAEBA297C4CD800DEBC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5859E0A1297BE87C004BF368 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -170,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5859E0B0297BE87D004BF368 /* Assets.xcassets in Resources */,
+				580BAEBE297C4D1F00DEBC3E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		580BAEBA297C4CD800DEBC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		580BAEBB297C4CD800DEBC3E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 580BAEBA297C4CD800DEBC3E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5859E0AC297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld */ = {
