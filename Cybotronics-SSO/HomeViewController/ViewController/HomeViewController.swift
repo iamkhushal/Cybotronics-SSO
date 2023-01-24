@@ -23,6 +23,9 @@ class HomeViewController: UIViewController {
     private lazy var scanQRButtonView: ScanQRButtonView = {
         let scanQRButtonView: ScanQRButtonView =  ScanQRButtonView(frame: .zero)
         scanQRButtonView.setDimensions(width: screenWidth * 0.8, height: screenHeight * 0.15)
+        scanQRButtonView.qrCodeButtonPressed = {[weak self] in
+            self?.navigateToQRScannerViewController()
+        }
         return scanQRButtonView
     }()
 
@@ -32,13 +35,9 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor  = .white
         setupUI()
-
-        scanQRButtonView.qrCodeButtonPressed = {
-            print("Pressed")
-        }
     }
 
-    fileprivate func setupUI() {
+    private func setupUI() {
 
         view.addSubview(imageView)
         imageView.anchor(top: view.topAnchor, insets: UIEdgeInsets(top: screenHeight * 0.15, left: .zero, bottom: .zero, right: .zero))
@@ -54,5 +53,8 @@ class HomeViewController: UIViewController {
         scanQRButtonView.anchor(top: titleLabel.bottomAnchor, insets: UIEdgeInsets(top: 25, left: .zero, bottom: .zero, right: .zero))
 
     }
-
+    private func navigateToQRScannerViewController() {
+        let viewController = QRScannerViewController()
+        navigationController?.pushViewController(viewController, animated: true)
+    }
 }

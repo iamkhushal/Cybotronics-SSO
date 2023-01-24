@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func configureRootView() {
         guard let window = window else {return}
-        let rootViewController: UIViewController =  HomeViewController()
+        let rootViewController: UIViewController = UINavigationController(rootViewController: HomeViewController()) 
 
 
         window.rootViewController = rootViewController

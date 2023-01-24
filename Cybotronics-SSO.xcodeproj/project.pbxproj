@@ -17,6 +17,10 @@
 		5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */; };
 		5859E0C4297BF154004BF368 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */; };
 		5859E0C6297BF28F004BF368 /* ScreenOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */; };
+		58D13587297F6BF100125A00 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D13586297F6BF100125A00 /* QRScannerViewController.swift */; };
+		58D13589297F6C7F00125A00 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D13588297F6C7F00125A00 /* CameraPermission.swift */; };
+		58D1358B297F6D0F00125A00 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */; };
+		58D1358D297F700A00125A00 /* UIViewController+Extenions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1358C297F700A00125A00 /* UIViewController+Extenions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenOrientation.swift; sourceTree = "<group>"; };
+		58D13586297F6BF100125A00 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		58D13588297F6C7F00125A00 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		58D1358C297F700A00125A00 /* UIViewController+Extenions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extenions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,7 @@
 		5859E0A2297BE87C004BF368 /* Cybotronics-SSO */ = {
 			isa = PBXGroup;
 			children = (
+				58D13584297F6BC000125A00 /* QRScannerViewController */,
 				5859E0C0297BF0AD004BF368 /* Extensions */,
 				5859E0BC297BEED8004BF368 /* HomeViewController */,
 				5859E0BA297BE88A004BF368 /* BaseClasses */,
@@ -107,8 +116,27 @@
 				5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */,
 				5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */,
 				5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */,
+				58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */,
+				58D1358C297F700A00125A00 /* UIViewController+Extenions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58D13584297F6BC000125A00 /* QRScannerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58D13588297F6C7F00125A00 /* CameraPermission.swift */,
+				58D13585297F6BDE00125A00 /* ViewController */,
+			);
+			path = QRScannerViewController;
+			sourceTree = "<group>";
+		};
+		58D13585297F6BDE00125A00 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58D13586297F6BF100125A00 /* QRScannerViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +208,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D13587297F6BF100125A00 /* QRScannerViewController.swift in Sources */,
+				58D13589297F6C7F00125A00 /* CameraPermission.swift in Sources */,
+				58D1358B297F6D0F00125A00 /* UIApplication+Extensions.swift in Sources */,
+				58D1358D297F700A00125A00 /* UIViewController+Extenions.swift in Sources */,
 				5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */,
 				5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */,
 				5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */,
