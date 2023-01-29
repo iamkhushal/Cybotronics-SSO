@@ -11,6 +11,10 @@
 		580BAEB9297C0DF700DEBC3E /* ScanQRButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */; };
 		580BAEBC297C4CD800DEBC3E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 580BAEBB297C4CD800DEBC3E /* FirebaseMessaging */; };
 		580BAEBE297C4D1F00DEBC3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 580BAEBD297C4D1F00DEBC3E /* GoogleService-Info.plist */; };
+		5841198B298290E700C5AE81 /* TokenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841198A298290E700C5AE81 /* TokenViewController.swift */; };
+		584794882985046000B41B91 /* SRCountdownTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584794872985046000B41B91 /* SRCountdownTimer.swift */; };
+		5847948A2985059A00B41B91 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584794892985059A00B41B91 /* UILabel+Extensions.swift */; };
+		5847948C2985074F00B41B91 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5847948B2985074F00B41B91 /* UITableView+Extension.swift */; };
 		5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A3297BE87C004BF368 /* AppDelegate.swift */; };
 		5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0A5297BE87C004BF368 /* SceneDelegate.swift */; };
 		5859E0AE297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0AC297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld */; };
@@ -19,6 +23,8 @@
 		5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */; };
 		5859E0C4297BF154004BF368 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */; };
 		5859E0C6297BF28F004BF368 /* ScreenOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */; };
+		58A8202B2986489A0063ABC7 /* TokenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A8202A2986489A0063ABC7 /* TokenViewModel.swift */; };
+		58A8203029864B730063ABC7 /* TokenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A8202F29864B730063ABC7 /* TokenTableViewCell.swift */; };
 		58D13587297F6BF100125A00 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D13586297F6BF100125A00 /* QRScannerViewController.swift */; };
 		58D13589297F6C7F00125A00 /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D13588297F6C7F00125A00 /* CameraPermission.swift */; };
 		58D1358B297F6D0F00125A00 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */; };
@@ -29,6 +35,10 @@
 		580BAEAE297BFD4500DEBC3E /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		580BAEB8297C0DF700DEBC3E /* ScanQRButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRButtonView.swift; sourceTree = "<group>"; };
 		580BAEBD297C4D1F00DEBC3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5841198A298290E700C5AE81 /* TokenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenViewController.swift; sourceTree = "<group>"; };
+		584794872985046000B41B91 /* SRCountdownTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRCountdownTimer.swift; sourceTree = "<group>"; };
+		584794892985059A00B41B91 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		5847948B2985074F00B41B91 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		5859E0A0297BE87C004BF368 /* Cybotronics-SSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cybotronics-SSO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5859E0A3297BE87C004BF368 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5859E0A5297BE87C004BF368 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +49,8 @@
 		5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		5859E0C3297BF154004BF368 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
 		5859E0C5297BF28F004BF368 /* ScreenOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenOrientation.swift; sourceTree = "<group>"; };
+		58A8202A2986489A0063ABC7 /* TokenViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenViewModel.swift; sourceTree = "<group>"; };
+		58A8202F29864B730063ABC7 /* TokenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTableViewCell.swift; sourceTree = "<group>"; };
 		58D13586297F6BF100125A00 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		58D13588297F6C7F00125A00 /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
 		58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
@@ -57,6 +69,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58411989298290D400C5AE81 /* TokenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58A8202D29864B420063ABC7 /* Model */,
+				58A8202C29864B3A0063ABC7 /* ViewController */,
+				58A8202E29864B4B0063ABC7 /* View */,
+			);
+			path = TokenViewController;
+			sourceTree = "<group>";
+		};
+		584276B0298283D50084691A /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
 		5859E097297BE87C004BF368 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +105,8 @@
 		5859E0A2297BE87C004BF368 /* Cybotronics-SSO */ = {
 			isa = PBXGroup;
 			children = (
+				58411989298290D400C5AE81 /* TokenViewController */,
+				584276B0298283D50084691A /* DataStore */,
 				58D13584297F6BC000125A00 /* QRScannerViewController */,
 				5859E0C0297BF0AD004BF368 /* Extensions */,
 				5859E0BC297BEED8004BF368 /* HomeViewController */,
@@ -123,8 +154,35 @@
 				5859E0C1297BF0BE004BF368 /* UIView+Extensions.swift */,
 				58D1358A297F6D0F00125A00 /* UIApplication+Extensions.swift */,
 				58D1358C297F700A00125A00 /* UIViewController+Extenions.swift */,
+				584794892985059A00B41B91 /* UILabel+Extensions.swift */,
+				5847948B2985074F00B41B91 /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		58A8202C29864B3A0063ABC7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5841198A298290E700C5AE81 /* TokenViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		58A8202D29864B420063ABC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58A8202A2986489A0063ABC7 /* TokenViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58A8202E29864B4B0063ABC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				584794872985046000B41B91 /* SRCountdownTimer.swift */,
+				58A8202F29864B730063ABC7 /* TokenTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		58D13584297F6BC000125A00 /* QRScannerViewController */ = {
@@ -221,15 +279,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D13587297F6BF100125A00 /* QRScannerViewController.swift in Sources */,
+				5847948A2985059A00B41B91 /* UILabel+Extensions.swift in Sources */,
 				58D13589297F6C7F00125A00 /* CameraPermission.swift in Sources */,
 				58D1358B297F6D0F00125A00 /* UIApplication+Extensions.swift in Sources */,
+				58A8203029864B730063ABC7 /* TokenTableViewCell.swift in Sources */,
 				58D1358D297F700A00125A00 /* UIViewController+Extenions.swift in Sources */,
 				5859E0A4297BE87C004BF368 /* AppDelegate.swift in Sources */,
 				5859E0A6297BE87C004BF368 /* SceneDelegate.swift in Sources */,
 				5859E0C2297BF0BE004BF368 /* UIView+Extensions.swift in Sources */,
+				584794882985046000B41B91 /* SRCountdownTimer.swift in Sources */,
 				580BAEB9297C0DF700DEBC3E /* ScanQRButtonView.swift in Sources */,
+				5847948C2985074F00B41B91 /* UITableView+Extension.swift in Sources */,
 				5859E0AE297BE87C004BF368 /* Cybotronics_SSO.xcdatamodeld in Sources */,
 				5859E0BE297BEEEB004BF368 /* HomeViewController.swift in Sources */,
+				5841198B298290E700C5AE81 /* TokenViewController.swift in Sources */,
+				58A8202B2986489A0063ABC7 /* TokenViewModel.swift in Sources */,
 				5859E0C4297BF154004BF368 /* UIScreen+Extension.swift in Sources */,
 				5859E0C6297BF28F004BF368 /* ScreenOrientation.swift in Sources */,
 				580BAEAF297BFD4500DEBC3E /* UIColor+Extension.swift in Sources */,
